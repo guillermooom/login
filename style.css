@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*form{
+    padding:50px;
+}*/
+body{
+    background: linear-gradient(to right, #3498db, #2ecc71);
+}
+
+main{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+#logearse{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter:blur(20px) ; /* PARA DIFUMINAR EL FONDO */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color:#fff;
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+
+#logearse h1{
+    font-size: 30pt;
+    text-align: center;
+}
+
+#input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+#input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 40px;
+    font-size: 17px;
+    color:#fff;
+    padding: 20px 45px 20px 20px; /*PARA EVITAR SUPERPONERSE */
+}
+
+/* NOT WORK */
+#input-box input::placeholder{
+    color:#fff;
+}
+
+img{
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    /* PUT THE IMAGE IN THE CENTER OF TE INPUT*/
+    top:50%;
+    transform: translateY(-50%);
+}
+
+#forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+/*AL CHECKBOX LE DAMOS DISTANCIA Y COLO DE CHEKEADO*/
+#forgot label input{
+    accent-color: #ec0000;
+    margin-right: 3px;
+}
+
+#forgot a{
+    color:#fff;
+    text-decoration:none;
+}
+
+#forgot a:hover{
+    text-decoration:underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 17px;
+    color:#333;
+    font-weight: bold;
+}
+
+#register-link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+#register-link p a{
+    color:#fff;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+#register-link p a:hover{
+    text-decoration:underline;
+}
