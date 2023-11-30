@@ -15,20 +15,33 @@
 
   <main>
     <section id="logearse">
-      <h1>Login</h1>
       <form>
-        <section>
-          <article id="titulo">Email</article>
-          <input type="text" placeholder="Your Email">
+        <h1>Login</h1>
+        <section id="input-box">
+          <input type="text" placeholder="Your Email" required>
+          <img src="correo.png">
         </section>
         
-        <section>
-          <article id="titulo">Password</article>
-          <input type="password" placeholder="Your Password">
+        <section id="input-box">
+          <input type="password" placeholder="Your Password" required>
+          <img src="candado.png">
         </section>
         
+        <section id="forgot">
+          <label>
+            <input type="checkbox">Remember Me</label>
+            <a href="#">Forgor your password?</a>
+        </section>
+
         <section>
-          <input type="submit" value="Enviar">
+          <input type="submit" value="Login">
+        </section>
+
+        <section id="register-link">
+          <label>
+            <p>Don't have account?
+            <a href="#">Register</a></p>
+          </label>
         </section>
       </form>
     </section>
