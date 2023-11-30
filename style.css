@@ -55,7 +55,6 @@ main{
     padding: 20px 45px 20px 20px; /*PARA EVITAR SUPERPONERSE */
 }
 
-/* NOT WORK */
 #input-box input::placeholder{
     color:#fff;
 }
@@ -80,7 +79,7 @@ img{
 
 /*AL CHECKBOX LE DAMOS DISTANCIA Y COLO DE CHEKEADO*/
 #forgot label input{
-    accent-color: #ec0000;
+    accent-color: rgb(0, 0, 0, 0.2);
     margin-right: 3px;
 }
 
